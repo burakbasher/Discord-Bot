@@ -42,7 +42,7 @@ class aclient(discord.Client):
     if not self.synced:
       await self.tree.sync()
       self.synced = True
-    print('Bot {0.user} olarak kullanima hazir'.format(self))
+    print('log report here, bot is on'.format(self))
 
 
 def run_discord_bot():
